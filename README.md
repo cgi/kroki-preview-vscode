@@ -65,4 +65,6 @@ For any issues or feature requests, please [open an issue](https://github.com/cs
 
 ---
 
-*Note: This extension is in active development. Features and functionality may change. Feedback and contributions are highly appreciated!*
+*Note: This is fork of original extension for purpose of publishing new version with support of custom kroki server URL*
+
+*Warning: Name of extension was changed to publish in store, so some one can end up with both extentions: kroki-preview-vscode-pached, kroki-preview-vscode - this case not tested and discouraged to use. Please delete old extension!*

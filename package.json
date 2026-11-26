@@ -1,5 +1,5 @@
 {
-	"name": "kroki-preview-vscode",
+	"name": "kroki-preview-vscode-pached",
 	"displayName": "%displayName%",
 	"description": "%description%",
 	"version": "0.0.13",
@@ -9,14 +9,14 @@
 	"readme": "README.md",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/csteeg/kroki-preview-vscode"
+		"url": "https://github.com/cgi/kroki-preview-vscode"
 	},
 	"galleryBanner": {
 		"color": "#78d6f0",
 		"theme": "light"
 	},
-	"bugs": "https://github.com/csteeg/kroki-preview-vscode/issues",
-	"homepage": "https://github.com/csteeg/kroki-preview-vscode/",
+	"bugs": "https://github.com/cgi/kroki-preview-vscode/issues",
+	"homepage": "https://github.com/cgi/kroki-preview-vscode/",
 	"icon": "icon.png",
 	"main": "./dist/extension.js",
 	"engines": {
@@ -179,7 +179,7 @@
 		],
 		"configuration": {
 			"type": "object",
-			"title": "HTML",
+			"title": "kroki-preview-vscode-pached",
 			"order": 20,
 			"properties": {
 				"kroki.supportedFiles": {
@@ -298,12 +298,12 @@
 						}
 					],
 					"description": "File extensions supported by the Kroki previewer"
-				}
-			},
-        		"kroki.url": {
-				"type": "string",
+				},
+				"kroki.url": {
+					"type": "string",
           			"description": "The URL of the Kroki server",
           			"default": "https://kroki.io"
+				}
 			}
 		}
 	},
